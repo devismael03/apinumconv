@@ -1,0 +1,18 @@
+{
+  "name": "apinumconv",
+  "version": "1.0.0",
+  "description": "Api version of Azerbaijani number converter.",
+  "main": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ismael Mammadzada",
+  "license": "ISC",
+  "dependencies": {
+    "aznumconv": "^1.0.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}
