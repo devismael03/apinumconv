@@ -11,7 +11,7 @@ app.route('/convert/:number')
   .get(controller.getnormal);
 
 
-app.route('/convertOrdinal/:number')
+app.route('/convert-ordinal/:number')
   .get(controller.getordinal);
 
 app.use(function(req, res) {
